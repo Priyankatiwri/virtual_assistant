@@ -14,7 +14,7 @@ import openai
 from tkinter import*
 import pywhatkit
 
-openai.api_key = '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'
+openai.api_key = 'api key'
 engine = pyttsx3.init('sapi5') 
 voices = engine.getProperty('voices') 
 engine.setProperty('voice', voices[1].id)
